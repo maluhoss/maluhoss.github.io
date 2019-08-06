@@ -8,8 +8,25 @@ body {
   height: 100%;
 }
 
+nav {
+  background-color: transparent;
+  position: fixed;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 #home {
-  background-image: url("assets/cape-breton-island.jpg");
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("assets/cape-breton-island.jpg");
+/*  background-image: url("assets/cape-breton-island.jpg");*/
   background-size: 100% 100%;
   width: 100vw;
   height: 100vh;
@@ -17,7 +34,7 @@ body {
 }
 
 #home h1 {
-  background-color: white;
+  color: white;
   position: relative;
   top: 50vh;
 }
