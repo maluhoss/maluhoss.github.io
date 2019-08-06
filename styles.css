@@ -46,4 +46,11 @@ nav a {
   top: 50vh;
 }
 
+.roles-container {
+  display: flex;
+}
+
+.skills-container {
+  display: flex;
+}
 
