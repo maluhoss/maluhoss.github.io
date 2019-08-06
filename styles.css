@@ -9,14 +9,23 @@ body {
 }
 
 nav {
-  background-color: transparent;
+  background-color: white;
   position: fixed;
 }
 
 nav a {
-  color: white;
+  color: black;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.responsive-webpage {
+  width: 100vw;
+  height: 100vh;
+}
+
+.center {
+  text-align: center;
 }
 
 #home {
@@ -28,8 +37,6 @@ nav a {
     url("assets/cape-breton-island.jpg");
 /*  background-image: url("assets/cape-breton-island.jpg");*/
   background-size: 100% 100%;
-  width: 100vw;
-  height: 100vh;
   text-align: center;
 }
 
@@ -38,4 +45,5 @@ nav a {
   position: relative;
   top: 50vh;
 }
+
 
